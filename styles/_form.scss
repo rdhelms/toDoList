@@ -1,0 +1,22 @@
+form {
+  width: 100%;
+  font-size: 25px;
+  margin-bottom: 3px;
+  ::-webkit-input-placeholder {
+    color: $lightTextColor;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: $lightTextColor;
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: $lightTextColor;
+  }
+  :-ms-input-placeholder {
+    color: $lightTextColor;
+  }
+  input {
+    padding: 20px 50px;
+    width: 100%;
+    font-style: italic;
+  }
+}

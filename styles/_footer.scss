@@ -1,0 +1,23 @@
+footer {
+  background: white;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $lightTextColor;
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    li {
+      margin: 0 5px;
+    }
+  }
+  button {
+    border: 0;
+    background: none;
+    outline-style: none;
+    color: $lightTextColor;
+  }
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: $backgroundColor;
+    font-family: $primaryFont;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 70px;
+  color: $titleTextColor;
+}
+
+main {
+  width: 75%;
+  padding: 0;
+}

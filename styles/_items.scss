@@ -1,0 +1,58 @@
+.items {
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  li {
+    width: 100%;
+    border: 1px solid #ddd;
+    background: white;
+    article {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      .check {
+        outline-style: none;
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        margin: 0 10px;
+        color: green;
+        &.complete:after {
+          content: '\2713';
+        }
+      }
+      p, input {
+        width: 100%;
+        color: #555;
+        margin: 0;
+        padding: 10px 10px;
+        font-size: 25px;
+        border: 0;
+        outline-style: none;
+      }
+      p.complete {
+        color: #ddd;
+        text-decoration: line-through;
+      }
+      input {
+        display: none;
+      }
+      .delete {
+        display: none;
+        position: absolute;
+        background: none;
+        border: 0;
+        color: red;
+        right: 10px;
+      }
+    }
+  }
+}
