@@ -439,7 +439,8 @@ form {
         color: #ddd;
         text-decoration: line-through; }
       .items li article input {
-        display: none; }
+        display: none;
+        box-shadow: 0 0 7px inset; }
       .items li article .delete {
         display: none;
         position: absolute;
@@ -467,5 +468,7 @@ footer {
     background: none;
     outline-style: none;
     color: #ccc; }
+    footer button.active {
+      border: 1px solid gray; }
 
 /*# sourceMappingURL=main.css.map */

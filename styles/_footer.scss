@@ -19,5 +19,8 @@ footer {
     background: none;
     outline-style: none;
     color: $lightTextColor;
+    &.active {
+      border: 1px solid gray;
+    }
   }
 }
